@@ -1,18 +1,19 @@
 const express = require("express");
 
-// Further routing
-const contactRoute = require('./subrouting/contact');
-
 const router = express.Router();
 
 module.exports = (params) => {
   router.get("/", (req, res) => {
     res.render("index", {
-      page: "home"
+      page: "contact/contactform",
     });
   });
 
-  router.use('/contact', contactRoute(params));
+  router.get("/messages", (req, res) => {
+    res.render("index", {
+      page: "contact/contactMessages",
+    });
+  });
 
   return router;
 };
