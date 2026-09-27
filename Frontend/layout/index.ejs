@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title><%= pageTitle %></title>
-    </head>
-    <body>
-        <h1>Testing</h1>
-    </body>
+  <head>
+    <%- include('../partials/head'); %>
+  </head>
+  <body>
+    <%- include(`../pages/${page}`) %>
+    <footer><%- include('../partials/footer'); %></footer>
+  </body>
 </html>
