@@ -11,7 +11,7 @@ app.set("view engine", "ejs");
 
 // views to use
 app.set("views", path.join(__dirname, "../Frontend/layout"));
-app.use(express.static(path.join(__dirname, "../../Frontend")));
+app.use(express.static(path.join(__dirname, "../Frontend")));
 
 // To read this simply do a <%= pageTitle %> in a .ejs view.
 // app.locals.pageTitle = "Evan Vang"
