@@ -25,6 +25,11 @@ body {
     transition: background-color .75s;
 } */
 
+/* Faq styling */
+.faqQuestionsWrapper{
+  margin: 10px;
+}
+
 /* Testimonial page styling. */
 .VangTestimonialCard:hover {
   box-shadow: 5px 5px #888888;
