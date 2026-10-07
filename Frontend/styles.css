@@ -1,3 +1,42 @@
-#pagesWrapper{
-    margin: 25px;
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #333333;
+}
+
+#pagesWrapper {
+  margin: 25px;
+}
+
+/* .nav-link:hover{
+    text-decoration: underline;
+    background-color: blue;
+    border-radius: 25%;
+    transition: background-color .75s;
+} */
+
+/* Testimonial page styling. */
+.VangTestimonialCard:hover {
+  box-shadow: 5px 5px #888888;
+
+  transition: all 0.5s;
+}
+
+.VangTestimonialOuterDiv {
+  margin: 10px 0px;
+}
+
+.VangTestimonialProfileImg {
+  height: 200px !important;
+  width: 200px !important;  
 }
