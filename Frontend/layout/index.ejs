@@ -4,7 +4,12 @@
     <%- include('../partials/head'); %>
   </head>
   <body>
+    <%- include('../partials/nav'); %>
+
+    <section id="pagesWrapper">
     <%- include(`../pages/${page}`) %>
+    </section>
+
     <footer><%- include('../partials/footer'); %></footer>
   </body>
 </html>

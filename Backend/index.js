@@ -16,7 +16,8 @@ app.use(express.static(path.join(__dirname, "../Frontend")));
 // To read this simply do a <%= pageTitle %> in a .ejs view.
 // app.locals.pageTitle = "Evan Vang"
 
-app.use("/", routes());
+const params = {}
+app.use("/", routes(params));
 
 app.listen(3000, () => {
   console.log("Server listening on port 3000");
