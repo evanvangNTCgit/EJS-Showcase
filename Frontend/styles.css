@@ -16,6 +16,17 @@ body {
 
 #pagesWrapper {
   margin: 25px;
+  flex: 1;
+}
+
+#vangContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Footer styling */
+#vangFooter {
 }
 
 /* Cars For Sale Page Styline */
@@ -57,4 +68,12 @@ body {
 .VangTestimonialProfileImg {
   height: 200px !important;
   width: 200px !important;
+}
+
+/* Contact Form Styling. */
+#VangContactFormSection {
+  float: left;
+}
+#VangInfoContactSection {
+  float: right;
 }

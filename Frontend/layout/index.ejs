@@ -4,12 +4,14 @@
     <%- include('../partials/head'); %>
   </head>
   <body>
+    <div id="vangContainer">
     <%- include('../partials/nav'); %>
 
-    <section id="pagesWrapper">
+    <div id="pagesWrapper">
     <%- include(`../pages/${page}`) %>
-    </section>
+    </div>
 
     <footer><%- include('../partials/footer'); %></footer>
+    </div>
   </body>
 </html>
