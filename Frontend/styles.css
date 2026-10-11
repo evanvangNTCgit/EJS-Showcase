@@ -18,6 +18,19 @@ body {
   margin: 25px;
 }
 
+/* Cars For Sale Page Styline */
+
+.vangCardStyling {
+  border: solid;
+  border-width: 2px;
+  border-width: thick;
+}
+
+.vangCardImageStyling {
+  height: 200px;
+  width: 100px;
+}
+
 /* .nav-link:hover{
     text-decoration: underline;
     background-color: blue;
@@ -26,7 +39,7 @@ body {
 } */
 
 /* Faq styling */
-.faqQuestionsWrapper{
+.faqQuestionsWrapper {
   margin: 10px;
 }
 
@@ -43,5 +56,5 @@ body {
 
 .VangTestimonialProfileImg {
   height: 200px !important;
-  width: 200px !important;  
+  width: 200px !important;
 }
